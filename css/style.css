@@ -2234,9 +2234,9 @@ header {
 
 .webp .about__section{ background: url(../img/1611674832_55-p-geometricheskii-fon-dlya-prezentatsii-65.webp); }
 
-.webp .services .wrapper .services__cards .services__card:hover .serv__card__logo{ background-image: url(../img/smartphone_4947.webp); }
+.services .wrapper .services__cards .services__card:hover .serv__card__logo{ background-image: url(../img/smartphone_4947.webp); }
 
-.webp .services .wrapper .services__cards .services__card .serv__card__logo{ background-image: url(../img/smartphone_copy_4948.webp); }
+.services .wrapper .services__cards .services__card .serv__card__logo{ background-image: url(../img/smartphone_copy_4948.webp); }
 
 .webp .works{ background-image: url(../img/1611674832_55-p-geometricheskii-fon-dlya-prezentatsii-65.webp); }
 
