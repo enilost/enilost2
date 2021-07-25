@@ -39,16 +39,11 @@ $(function(){
     });
     //jquery filter works
     let ctgr = $('.works__links li');
-    console.log(ctgr);
     ctgr.click(function(e){
         e.preventDefault();
-        console.log($(this).attr('data-f'));
         let f = $(this).attr('data-f');
         let cont = $('.work__item');
-        console.log(f);
         cont.each(function(){
-                console.log($(this).attr('data-f'));
-                //console.log(f);
                 if ($(this).attr('data-f') !== f && f !== 'all') {
                     $(this).slideUp(500, function(){console.log('')});
                 } else {$(this).slideDown(500);}
@@ -82,7 +77,6 @@ $(function(){
     //jquery nav scroll
     $('.menu_js').click(function(e){
       e.preventDefault();
-      //console.log($(this).children('a').attr('href'));
       $('html, body').animate({ scrollTop: $($(this).children('a').attr('href')).offset().top }, 600);
       return false;
     });
